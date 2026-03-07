@@ -31,10 +31,11 @@ def main():
                 status = "Fail"
                 
             # Display the result
-            print(f"\nStudent Name: {name}")
-            print(f"Average Marks: {average:.2f}")
-            print(f"Grade: {grade}")
-            print(f"Status: {status}")
+            print("-" * 30)
+            print(f"Name   : {name}")
+            print(f"Average: {average:.1f}")
+            print(f"Grade  : {grade}")
+            print("-" * 30)
                 
         except ValueError:
             print("Error: Please enter valid numeric marks.")
