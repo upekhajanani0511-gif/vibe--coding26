@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Profile Card</title>
+    <style>
+        body {
+            /* පසුබිම නිල් පාට විතරක් නොවී Gradient එකක් වෙන්න */
+            background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            /* කාඩ් එක සුදු පාටට පේන්න ඕනේ */
+            width: 300px;
+            padding: 30px;
+            border-radius: 20px;
+            /* 4. Rounded Corners */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            /* 4. Shadow */
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            background: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+        }
+
+        h2 {
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .stream {
+            color: #3a7bd5;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="profile-img">Photo</div>
+        <h2>Upekha Janani</h2>
+        <p class="stream">Information Technology</p>
+        <p class="bio">I love learning about Git and SQL!</p>
+    </div>
+
+</body>
+
+</html>
